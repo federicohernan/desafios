@@ -7,56 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="../estilospropios.css/estilospropios.css">
   <title>Spider-Man</title>
-  <style>
-    .videofondo {
-      position: fixed;
-      min-width: 100%;
-      min-height: 100%;
-      top: 50%;
-      left: 50%;
-      transform: translateX(-50%) translateY(-50%);
-      z-index: -1;
-    }
 
-
-    h2 {
-      padding: 1%;
-      text-align: center;
-      color: rgb(209, 38, 32);
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    .menu {
-      padding: 1%;
-    }
-
-    .imagen-index1 {
-      margin: 5%;
-      padding: 5%;
-    }
-
-    .parrafomihistoria {
-      background-color: rgba(128, 128, 128, 0.527);
-      color: white;
-
-    }
-
-    .footerderechos {
-
-      text-align: left;
-    }
-
-    .logos {
-      color: aliceblue;
-    }
-   
-  </style>
 </head>
 
 <body>
   <h2>Spiderman</h2>
-  <video class="videofondo" src="../imagenes/The Amazing Spider-Man _ Final Swing _ 4K 60fps.mp4 " autoplay loop
+  <video class="videodefondo" src="../imagenes/The Amazing Spider-Man _ Final Swing _ 4K 60fps.mp4 " autoplay loop
     muted></video>
   <div class="container">
 
@@ -97,6 +55,7 @@
 
       </header>
     </div>
+    <!--ingraso de fotos con fraces de spiderman-->
     <div class="container">
       <figure class="figure imagen-index1">
         <div>
@@ -128,9 +87,13 @@
             situaciones increíbles como a los problemas habituales de un chico de su edad.</b></p>
       </div>
 
-
-      <footer class="container row ">
-        <p class="col-8 footerderechos"> <b> todos los derechos son reservados</b> </p>
+<div class="container-fluid ">
+      <footer class=" row ">
+        <div class="col-8">
+          <p class= "textoderechos">
+            <b> todos los derechos son reservados</b>
+          </p>
+        </div>
 
         <div class="col-1">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
@@ -155,7 +118,7 @@
         </div>
 
       </footer>
-
+</div>
 
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

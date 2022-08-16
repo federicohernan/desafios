@@ -7,66 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilospropios.css/estilospropios.css">
 
 
   <title>spiderman</title>
 
-  <style>
-    video {
-      position: fixed;
-      min-width: 100%;
-      min-height: 100%;
-      top: 50%;
-      left: 50%;
-      transform: translateX(-50%) translateY(-50%);
-      z-index: -1;
-    }
-
-    h2 {
-      padding: 1%;
-      text-align: center;
-      color: rgb(209, 38, 32);
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    .menu {
-      padding: 1%;
-    }
-form{
-    width: 50% ;
-    margin: auto;
-    background: rgba(59, 59, 59, 0.678);
-    padding: 20px 50px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    border-radius: 100px;
-    font-family: serif;
-}
-   
-footer{
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-   
-}
-.bi-instagram {
-      color: aliceblue;
-    }
-
-    .bi-facebook {
-      color: aliceblue;
-    }
-
-    .bi-whatsapp {
-      color: aliceblue;}
-
-
-  </style>
 </head>
-
+<!--contacto mejorar el fotmulario ver modelos -->
 <body>
   <h2>Spiderman</h2>
-  <video src="../imagenes/The Amazing Spider-Man _ Final Swing _ 4K 60fps.mp4 " autoplay loop muted></video>
+  <video class="videodefondo"src="../imagenes/The Amazing Spider-Man _ Final Swing _ 4K 60fps.mp4 " autoplay loop muted></video>
 
 
   <div class="row">
@@ -121,8 +71,8 @@ footer{
 
 
 
-
-  <footer class=" container-fluid row">
+<div class="container-fluid">
+  <footer class=" row">
     <div class="col-9">
       <p> <b> todos los derechos son reservados</b> </p>
     </div>
@@ -150,7 +100,7 @@ footer{
 
   </footer>
 
-
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
